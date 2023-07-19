@@ -1,0 +1,314 @@
+.navbar {
+  height: 5rem;
+  border-bottom: solid 1px#000;
+  justify-content: space-between;
+  display: flex;
+ 
+}
+
+.logo-img{
+  width: 144px;
+  height: 80px;
+ 
+}
+
+.joinUs1{
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  height: 1.5rem;
+  width: 5rem;
+}
+
+
+.nav_style h6{
+  color: #000;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+.First-ul {
+
+  list-style-type: none;
+
+  text-decoration: none;
+}
+
+
+.First-ul a {
+  
+
+  color: #000;
+  text-decoration: none;
+
+}
+
+
+.First-ul a:hover {
+border-bottom: solid 2px #2EB167;
+
+}
+ 
+
+.hamberger{
+  width: 15.625rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0; 
+}
+
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right:-10px;
+  height: calc(100vh-100px);
+  width: 0px;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  
+}
+ .sidebar.active {
+  width:40rem;
+  z-index: 1;
+  opacity: 1;
+  height: 100vh;
+}
+.sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+} 
+
+.sidebar-elements {
+  padding: 40px 0px;
+  padding-inline-start: 0px;
+}
+.sidebar ul li{
+  height: 35px;
+  width: 250px;
+} 
+
+.sidebar ul li a{
+  /* padding: 20px; */
+  font-family: 'Comfortaa';
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+ text-decoration: underline!important;
+  color: #2EB167;
+border-bottom: none;
+}
+.joinUs1{
+  background: rgb(6, 119, 73);
+  color: white;
+}
+.joinUs1:hover{
+  background-color: #C7F2AB;
+  color: black;
+}
+@media screen and (max-width: 280px){
+  .menutext{
+    display: none;
+   }
+}
+
+
+@media only screen and (min-width: 992px) {
+ 
+#joinUsbtn{
+  display: block;
+}
+
+  .joinUs1{
+    width: 132px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .menu-icon2,.First-ul {
+    font-size: 24px;
+  }
+}
+@media (max-width:1214px) {
+  .logo-img{
+    margin-left:0;
+  }
+  
+.d-flex{
+  margin-right: 0px;
+}
+
+
+.joinUs1{
+  height: 35px;
+}
+  
+}
+
+
+
+@media only screen and (min-width: 768px){
+  /* .navbar ul li{
+    margin-right: 37px;
+  } */
+  .navbar .menutext,.navbar #First-ul {
+
+    font-weight: 500;
+  }
+  .joinUs1{
+    display: none;
+  }
+ 
+
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    
+  } 
+  
+  .joinUs1{
+    display: none;
+  }
+  
+
+.sidebar-img{
+  display: none;
+}
+  .sidebar{
+    position: absolute;
+    left: -10px;
+    top: 60px;
+    background-color: #ffffff;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 2;
+    border:solid 1px #000;
+  }
+  .sidebar-elements ul{
+    list-style-type: none;
+  }
+
+  .sidebar.active{
+    width: 300px;
+    height: 500px;
+    z-index: 2;
+    border:none;
+  }
+  .navbar .First-ul {
+    display: none; 
+  }
+  .nav-elements form{
+    margin-left: 0;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+    z-index: 2;
+  }
+
+
+  
+}  @media (max-width: 600px) and (min-width:300px){
+ .logo {
+    margin-right: 20px;
+  }
+  .menutext{
+    display: none;
+   }
+} 
+ @media (max-width: 730px) and (min-width:600px){
+  .last_editor a{
+    margin-right: 10px;
+  }
+  .nav-elements ul a{
+    margin-right: 5px;
+  }
+  .nav-elements ul li{
+    margin-right: auto;
+  }
+  .menutext{
+    display: none;
+   }
+ 
+ }
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content.first-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 250px;
+}
+
+.dropdown-content.first-dropdown a {
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content.first-dropdown a:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+  border: none;
+}
+
+.dropdown:hover .dropdown-content.first-dropdown {
+  display: block;
+}
+
+.dropdown-content.second-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 250px;
+
+}
+
+.dropdown-content.second-dropdown a {
+  color: black;
+  padding:20px 0px 50px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content.second-dropdown a:hover {
+
+  text-decoration: none;
+  border: none;
+}
+
+.dropdown:hover .dropdown-content.second-dropdown {
+  display: block;
+}

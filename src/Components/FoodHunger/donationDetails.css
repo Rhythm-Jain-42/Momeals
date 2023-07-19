@@ -1,0 +1,63 @@
+.Donation-container{
+   background-color:#EEEEEE;
+  
+
+}
+.donar-card.card{
+    background-color:#EEEEEE;
+    /* width: 18rem !important;
+    height: 6rem !important; */
+    /* display: flex;
+    flex-direction: row; */
+    border:none;
+    margin-top: 2rem;
+    box-shadow: none !important;  
+    
+}
+.d-2{
+    display: flex;
+    margin: 0;
+   
+}
+
+.data-amount{
+    color: #FD7E14;
+    margin: 0;
+}
+
+.data-time{
+    margin: 0;
+    color: #D90000;
+}
+   
+.data-comment{
+    margin: 0;
+}
+
+.share-cause-Container{
+    margin-top: 3rem;
+    background-color:#EEEEEE;
+  
+}
+.share-cause-Container h3{
+   /* padding-left: 2.5rem;   */
+}
+
+.share-cause-list ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.share-cause-list ul li{
+    /* margin: 0.5rem; */
+}
+
+@media (max-width:360px) {
+    /* .Donation-container{
+        width: 20rem; 
+     }
+     .share-cause-Container{ 
+        width: 20rem; 
+        
+    } */
+}

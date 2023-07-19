@@ -1,0 +1,46 @@
+.containerd-wrapper{
+    width: 100%;
+    height: auto;
+}
+.containerdjoinbtn:hover{
+    background-color: #FD7E14 !important;
+    color: white !important;
+
+}
+.containerd-wrapper .containerdp{
+    text-align: center;
+    max-width: 50%;
+    margin: 2rem auto;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.containerd-wrapper .containerdjoinbtn{
+    width: 183px;
+    height: 60px;
+    background: #067749;
+    border-radius: 30px;
+    margin: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+@media (max-width:923px){
+    .containerd-wrapper .containerdp{
+        max-width: 95%;
+     
+        margin: 0 25px;
+    
+    }
+}
+
+

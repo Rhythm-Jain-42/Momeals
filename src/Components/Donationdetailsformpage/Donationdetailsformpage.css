@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Poppins&display=swap');
+
+.donationdetailsformcustom-body {
+  background: #c7f2ab;/* Replace with your desired background color */
+}
+
+
+  .donationdetailsform .container {
+    overflow: hidden;
+  }
+  .donationdetailsform .donationdetailsformarrow{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 6px 9px;
+    width: 30px;
+    background: white;
+    margin: 10px 0px 0px 16px;
+
+}
+  /* Form */
+  .donationdetailsform .donationdetailsformh6 {
+    font-weight: 400;
+    font-size: 40px;
+   
+    color: #044EAF;
+    font-family: Comfortaa;
+  }
+  
+  /* Form input */
+  .donationdetailsform #donationdetailsforminp {
+    width: 100%;
+    margin: 20px 0px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid black;
+    outline: none; /* Add this line to remove the outline */
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  .polygon-dropdown-icon {
+   
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+    /* Hide the default dropdown select icon */
+  /* .donationdetailsformdropdown-select {
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+   
+  } 
+  */
+    
+  /* Submit button */
+  .donationdetailsform #donationdetailsformbtn{
+    color: white;
+    background: #1B5240;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    width: 161px;
+    height: 52px;
+    font-size: 25px;
+    font-family: Arvo;
+  }
+  
+  .donationdetailsform .donationdetailsformform-class input::placeholder {
+    color: #000000; /* Color for the placeholder text */
+  }
+ 
+  .donationdetailsform #donationdetailsformcheckbox:focus{
+ box-shadow: none;
+  }
+ 
+  
+  
+  /* Checkbox info */
+  .donationdetailsform .donationdetailsformcheckinfo {
+font-size: 17px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+  }
+
+  
+  @media screen and (max-width: 576px) {
+   
+  
+  
+  
+    .donationdetailsform .donationdetailsformh6 {
+      font-size: 24px;
+    }
+  
+  
+    .donationdetailsform .donationdetailsformcheckinfo{
+      font-size: 16px;
+    }
+    .donationdetailsform #donationdetailsformbtn{
+      font-size: 16px;
+    }
+    .donationdetailsform #donationdetailsformrrow{
+      margin: 0px 15px;
+     }
+   .Donorverifyimg{
+    display: none;
+   }
+   
+  }
+  

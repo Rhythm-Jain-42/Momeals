@@ -1,0 +1,109 @@
+.foodhunger-main-container{
+    width: 100%;
+    height: auto;
+}
+.container1-wrapper{
+    display: flex;
+    background:#DDECFF;
+   /* padding: 2rem 5rem; */
+  
+}
+
+.container4-wrapper{
+    color: #FFFFFF;
+    background: #067749;
+    
+}
+.container4-heading{
+
+    font-size: 35px;
+ 
+}
+
+
+.container4-counter h3{
+    text-align: left;
+} 
+
+/* .d-5{ 
+    text-align: left;
+    margin: 1rem;
+    border-right: 3px solid #FF9E00;
+} */
+
+
+.container3-wrapper{ 
+    background: #CBF5E6;
+  
+}
+.container3-wrapperp{
+  
+    font-weight: 100; 
+    font-size: 20px;
+  
+    background: #CBF5E6;
+ 
+}
+/* .sponsor-card{
+    margin-left: 1rem;
+} */
+.container4-wrapper .container4-wrappercounters:not(:last-child){
+    border-right: 2px solid orange  !important;
+  }
+
+@media (min-width:780px){
+    .container3-wrapperp{
+        border-left: 2px solid #0448BC;
+        padding: 0px 30px
+    }
+}
+@media (max-width: 575.98px){
+    .container1-wrapper,.container2-wrapper,.container3-wrapper,.container4-wrapper{
+        text-align: center;
+    }
+}
+@media (max-width:360px) {
+ 
+   
+    .container1-wrapper h5 {
+        font-size: 15px;
+
+    }
+    /* .card{
+        width:18rem !important;
+        margin-left: 0 !important;
+    }
+    .card-text{
+        width: 15rem !important;
+    } */
+ 
+   
+    /* .d-3{
+        margin: 0rem !important;
+    }
+    .d-4{
+       margin: 0rem !important;
+    } */
+    
+      
+    .container3-wrapperp{
+       
+        font-weight: 100; 
+        font-size: 17px;
+    
+      
+    }
+  
+    .container4-heading{
+    
+        font-size: 30px;
+    }
+
+    /* .d-5{
+        width: 13rem;
+        border-right: none;
+        border-bottom: 3px solid #FF9E00;
+    } */
+
+
+}

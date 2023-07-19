@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Poppins&display=swap');
+
+.formpage2 {
+    background-color:#C7F2AB !important;
+  }
+  
+  .formpage2 .container {
+    overflow: hidden;
+  }
+  .formpage2 .formpage2arrowimage{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 6px 9px;
+    width: 30px;
+    background: white;
+    margin: 10px 0px 0px 16px;
+
+}
+  /* Form */
+  .formpage2 .formpage2h6{
+    font-weight: 400;
+    font-size: 40px;
+   
+    color: #044EAF;
+    font-family: Comfortaa;
+  }
+  
+  /* Form input */
+  .formpage2 #formpage2inp {
+    width: 100%;
+    margin: 20px 0px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid black;
+    outline: none; /* Add this line to remove the outline */
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  
+  /* Submit button */
+  .formpage2 #formpage2btn1,
+  #formpage2btn2 {
+    color: white;
+    background: #1B5240;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    width: 161px;
+    height: 52px;
+    font-size: 25px;
+    font-family: Arvo;
+  }
+  
+  .formpage2 .formpage2form-class input::placeholder {
+    color: #000000; /* Color for the placeholder text */
+  }
+  
+  /* Checkbox */
+  /* .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .check {
+    margin-right: 5px; 
+  } */
+  .formpage2 #formpage2checkbox1:focus{
+ box-shadow: none ;
+  }
+  .formpage2 #formpage2checkbox2:focus{
+    box-shadow: none;
+  }
+  
+  
+  
+  /* Checkbox info */
+  .formpage2 .formpage2checkinfo {
+font-size: 17px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+  }
+  
+  .formpage2 .formpage2heading4 {
+    display: block;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  /* Not visible in large screen */
+  .formpage2 #formpage2heading3 {
+    display: none;
+  }
+  
+  .formpage2 .formpage2flex-container .formpage2card {
+    border: 1px solid black !important;
+    border-radius: 30px;
+  }
+  
+  .formpage2 .formpage2dashed-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed black;
+  }
+  
+  .formpage2 .formpage2plus-btn {
+   
+    font-weight: bolder ;
+    font-size: 86px;
+    font-family: Arvo;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+   background: none;
+    border: none;    
+    color: black;
+ 
+  }
+
+ 
+  /* Slider */
+ 
+
+  .slider-rail {
+   color: gray !important;
+  }
+  
+  .slider-thumb {
+    color: #044EAF !important;
+  }
+  
+  .slider-thumb {
+    box-shadow: none !important;
+   
+  }
+  /* .formpage2 .slider {
+    
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px ;
+    background: gray;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    
+  }
+  
+  .formpage2 .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #044EAF;
+    cursor: pointer;
+    margin-top: 0px;
+  }
+  
+  .formpage2 .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #044EAF;
+    cursor: pointer;
+    margin-top: 0px; 
+  } */
+  
+  @media screen and (min-width: 768px) {
+    /* Hide the 2nd submit button in large screen view */
+    .formpage2   #formpage2btn2 {
+      display: none;
+    }
+  
+    /* Hide the 2nd checkbox in large screen view */
+    .formpage2  #formpage2checkbox2 {
+      display: none;
+    }
+  
+    .formpage2 .formpage2flex-container .formpage2card {
+      width: 282px !important;
+      height: 171px !important;
+      box-shadow: none !important;
+    }
+  }
+ 
+  @media screen and (max-width: 576px) {
+    /* Not visible in small screen */
+    .formpage2 .formpage2heading4 {
+      display: none;
+    }
+  
+    /* Visible in small screen */
+    .formpage2  #formpage2heading3 {
+      display: block;
+      color: #067A46;
+      align-items: center;
+      text-align: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  
+    /* Hide the 1st submit button in small screen view */
+    .formpage2 #formpage2btn1 {
+      display: none;
+    }
+  
+    /* Hide the 1st checkbox in small screen view */
+    .formpage2  #formpage2checkbox1 {
+      display: none;
+    }
+  
+    .formpage2 .formpage2form .formpage2h6 {
+      font-size: 24px;
+    }
+  
+    /* Display the 2nd checkbox in small screen view */
+    /* #checkbox2 {
+      display: flex;
+    } */
+    .formpage2  #formpage2inp,.min,.max{
+      font-size: 15px;
+    }
+    .formpage2 .formpage2checkinfo{
+      font-size: 16px;
+    }
+    .formpage2 #formpage2btn2{
+      font-size: 16px;
+    }
+    .formpage2 #row{
+      margin: 0px 15px;
+     }
+     .formpage2 .formpage2dashed-circle{
+      width: 50px;
+      height: 50px
+     }
+     .formpage2 .formpage2card{
+      width:100% !important;
+
+     }
+     .formpage2  .formpage2plus-btn{
+      font-size: 16px;
+      font-family: Arvo;
+     }
+     .formpage2 .formpage2flex-container {
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      gap: 15px;
+    }
+   
+  }
+  

@@ -1,0 +1,153 @@
+.donation-caption {
+  /* max-width:65%;
+    padding:58px; */
+
+  font-style: "Arvo";
+}
+
+.cause-description {
+  font-size: 21px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 782px) {
+  .cause-description {
+    width: 375px;
+  }
+
+  .donation-caption .first-half {
+    font-size: 43px;
+    line-height: 45px;
+    font-weight: 500;
+    letter-spacing: -3px;
+  }
+
+  .donation-caption .second-half {
+    font-size: 58px;
+    color: #1b5240;
+    font-weight: 800;
+    font-size: 52px;
+    letter-spacing: -4px;
+    position: relative;
+    display: inline-block;
+  }
+}
+@media (min-width: 1025px) {
+  .cause-description {
+    width: 375px;
+  }
+  .donation-caption {
+    text-align: left;
+  }
+  .donate-buttons{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .donation-caption .first-half {
+    font-size: 43px;
+    line-height: 45px;
+    font-weight: 500;
+    letter-spacing: -3px;
+  }
+
+  .donation-caption .second-half {
+    font-size: 58px;
+    color: #1b5240;
+    font-weight: bolder;
+    line-height: 70px;
+    letter-spacing: -4px;
+    position: relative;
+    display: inline-block;
+  }
+  .underline {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    z-index: -1;
+    background-color: #a9a9a9;
+    border: 2px solid #a9a9a9;
+    box-sizing: border-box;
+  }
+}
+
+.donate-buttons .fromleftbtn-1:hover {
+  background: #067a46 ;
+  box-shadow: none;
+  border: none;
+}
+.donate-buttons .fromleftbtn-1 {
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  color: #ffffff;
+  width: 165px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  background: #067a46;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.donate-buttons .fromleftbtn-2 {
+  border-radius: 30px;
+  height: 50px;
+  width: 165px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+@media (max-width: 768px) {
+  .donate-buttons .fromleftbtn-1,
+  .donate-buttons .fromleftbtn-2 {
+    height: 50px;
+    width: 105px;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+  }
+  .donation-caption .first-half {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .donation-caption .second-half {
+    font-weight: 800;
+    font-size: 40px;
+
+    color: #1b5240;
+  }
+}
+
+@media (max-width: 280px) {
+  .fromleftcolbtns {
+    width: 110px !important;
+  }
+}
+
+.donate-buttons {
+  margin-top: 40px;
+
+}
+
+.donate-buttons .fromleftbtn-2:hover {
+  background-color: #fd7e14 ;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .donation-caption {
+    margin: 0px 30px;
+  }
+}

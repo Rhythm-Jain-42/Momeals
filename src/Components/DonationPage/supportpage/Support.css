@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@100&display=swap');
+
+.support-page{
+ height: 400px;
+ width: 100%;
+ background-image: url('../../Images/Giveawayfood-2\ 1.png');
+}
+
+.support-dis{  
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+
+.support-dis .support-but{
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    height: 45px;
+    width: 200px;
+    color: #fff;
+    font-size: large;
+    box-shadow: 2px 2px 2px 0 rgb(119, 112, 112);
+}
+.support-dis .support-but:hover{
+  background: #067A46 !important;
+
+}
+@media (max-width: 768px) {
+  
+.support-dis{
+font-size: 18px;
+}
+.support-heading{
+  font-size: 18px;
+}
+.support-page{
+  padding: 0px 15px;
+}
+}

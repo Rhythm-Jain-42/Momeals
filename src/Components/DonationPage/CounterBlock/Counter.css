@@ -1,0 +1,104 @@
+.counter-background {
+    background-color: #1B5240;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    padding: 30px 20px;
+    justify-content: center;
+  }
+  
+  .counter-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  @media (min-width: 768px){
+ 
+      .counter-item {
+        border-left: 4px solid #FD7E14; /* Adjust the color as needed */
+        padding-right: 10px; /* Add some padding to separate the content from the border */
+       
+        padding: 10px;
+        height: 100%;/* Add some margin to separate the items */
+      }
+      .caption,.counter-item span{
+          text-align:left;
+      }
+      .counter-background {
+        padding: 30px 108px;
+      }
+    
+  }
+  @media (min-width:1025px) {
+    .counter-item {
+      border-left:none;
+    }
+    .counter-item {
+      border-right: 4px solid #FD7E14; /* Adjust the color as needed */
+      padding-right: 10px; /* Add some padding to separate the content from the border */
+      margin-right: 80px; 
+      
+      height: 150px;/* Add some margin to separate the items */
+    }
+    .caption,.counter-item span{
+        text-align: right;
+    }
+    .counter-background {
+        justify-content: flex-start;
+        padding-left: 120px;
+      }
+    
+    /* Add additional styles for other counter-items as needed */
+  }
+  
+  @media (max-width: 767px) {
+    .counter-item {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+     
+      margin: 50px 20px 0px;
+    }
+  
+    .counter-item::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: orange;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    }
+    .counter-item small{
+      margin-left: 10px;
+      font-size: 22px;
+    
+      }
+  }
+  .counter-item span {
+  
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 17px;
+    
+  }
+  
+  .break-line {
+    width: 100%;
+    border-right: none;
+    border-bottom: 4px solid #FD7E14; /* Change the color and thickness as needed */
+    height: 80px;
+  }
+  
+  .caption {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Poppins',sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+   
+  }
+  

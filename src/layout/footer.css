@@ -1,0 +1,50 @@
+footer {
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    height: auto;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+
+.footerBorder {
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+footer form input {
+    padding: 0.2rem;
+    width: 60%;
+}
+footer .Subscribe {
+    background-color: #c7f2ab;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    color: #000;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    width: 50%;
+}
+@media (max-width: 575.98px) {
+    .last-div{
+        order: -1;
+        text-align: center;
+        align-items: center;
+    }
+    footer .first-div,   footer .second-div,   footer .last-div{
+      
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    
+    .Subscribe{
+        width: 100%;
+    }
+    footer .Subscribe{
+        border-radius: 30px;
+    }
+}

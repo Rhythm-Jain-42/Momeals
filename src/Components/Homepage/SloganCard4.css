@@ -1,0 +1,145 @@
+.slogancar4-row .slogancard4-3rd{
+  box-shadow: none !important;
+  border: none !important;
+  color: black !important;
+  width: 100% !important;
+  background: none !important;
+  height: auto !important;
+  }
+  .slogancar4-row .slogancard4-3rd:hover{
+    background: none !important;
+  }
+  @media (max-width: 575.98px) {
+      #cardpara1{
+        color: #000;
+font-size: 24px;
+
+
+      }
+      #cardpara2{
+       
+font-size: 18px;
+
+      }
+        #cardpara3{
+          font-size: 16px;
+        
+         color: #000;
+        
+        }
+  }
+  
+  
+  
+#cardpara1,#cardpara3{
+  font-family: Poppins;
+  font-weight: 700;
+  color: #000;
+}
+#cardpara2{
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  color: #000;
+}
+  @media only screen and (min-width: 992px) {
+   
+      .slogancard4-row .slogancard4-3rd{
+        width:100%;
+        
+      }
+      .slogancard4-row{
+        padding:0px 40px;
+      }
+  }
+  @media only screen and (min-width: 768px){
+     #cardpara1{
+      font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 28px;
+  }
+  #cardpara2{
+      font-family: 'Comfortaa';
+      font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  justify-content: center;
+  text-align: left;
+  }
+  .middle-text-container {
+      display: flex;
+      justify-content: center;
+      margin: 0 250px; /* Adjust the margin as needed */
+    }
+    
+    @media (max-width: 576px) {
+      .middle-text-container {
+        margin: 0; /* Remove the left and right margin for small screens */
+      }
+    }
+    
+  #cardpara3{
+      font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  }
+  
+  }
+  
+  /* slider */
+  @media (min-width: 992px) {
+     .slogancard4sliding-buttons #slogancard4slider-btn{
+        visibility: visible !important;
+      }
+    }
+    .slick-prev,.slick-next{
+    display: none !important;
+    }
+   .slogancard4sliding-buttons #slogancard4slider-btn {
+  
+      border: none !important;
+      color: #000000 !important;
+      font-size: 24px !important;
+     
+      border-radius: 50% !important;
+      width: 40px !important;
+      height: 40px !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      /* border: 2px solid #000000 !important; */
+     
+    
+    
+      background: #FFFFFF !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    display: flex !important;
+    }
+    .slogancard4sliding-buttons{
+      display: flex !important;
+    }
+    
+    
+    /* .slider-button:hover {
+      background: #ECECEC !important;
+      box-shadow: none !important;
+    }
+     */
+    
+    @media (min-width:1025px){
+      .slogancard4slider-container {
+        margin: 0 auto;
+        max-width: 80%;
+        position: relative;
+      }
+      
+     
+    }
+    
+    
+    
+    
+    
+    
+      

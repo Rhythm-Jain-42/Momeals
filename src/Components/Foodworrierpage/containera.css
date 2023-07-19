@@ -1,0 +1,209 @@
+.containera-box {
+    background-color: #C7F2AB;
+    margin-top: -10px;
+  }
+  
+  .containera-wrapper {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 3rem;
+    align-items: center;
+  }
+  
+  .containerapart1-list {
+    display: flex;
+    width: 255px;
+    height: 81px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    background: #FFFFFF;
+    border-radius: 40px;
+  }
+  
+  .containerapart1-list-item {
+    display: flex;
+    width: 100%;
+    margin: 9px;
+  }
+  
+  .containerapart1-list .containerapart1-img {
+    width: 65px;
+    height: 65px;
+    padding: 11px;
+  }
+  
+  .containera-wrapper .containera-part2 {
+    width: 57%;
+    border-left: 3px solid gray;
+  }
+  
+  .containerapart1-list-details .containerapart1-listp {
+    margin: 0;
+    margin-top: 22px;
+    line-height: 0px;
+    font-family: Poopins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .containerapart1-list-details .containerapart1-listh3 {
+    margin-top: 19px;
+    line-height: 0.4rem;
+  }
+  
+  .containera-part2-details {
+    margin: 1rem 2rem;
+  }
+  
+  .containera-part2-details .containera-part2h3 {
+    width: 453x;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+  }
+  
+  .containera-part2-details .containera-part2p {
+    width: 100%;
+    text-align: justify;
+    margin-top: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    word-spacing: 1px;
+  }
+  
+  .containera-part2-details .containerapart2joinbtn {
+    font-size: 20px;
+    font-family: Arvo;
+    background: #067749;
+    border-radius: 30px;
+    font-weight: 400;
+    width: 183px;
+    height: 60px;
+    line-height: 25px;
+    border: none;
+    margin-bottom: 4rem;
+    color: #FFFFFF;
+  }
+  
+  .containerapart2joinbtn:hover {
+    background-color: #FD7E14 !important;
+    color: white !important;
+  }
+  
+  @media only screen and (min-width: 992px), screen and (min-width: 768px) {
+    .containerapart1-list.right-side {
+      float: right;
+      margin-right: 2rem;
+    }
+  
+    .containera-part1 .containera-part1-ul {
+      padding-left: 2rem;
+    }
+  
+    .containera-part2-details .containera-part2h3 {
+      line-height: 50px;
+    }
+  
+    .containera-wrapper .containera-part1 {
+      width: 43%;
+    }
+  
+    .containera-wrapper {
+      padding-bottom: 3rem;
+    }
+  }
+  
+  @media (max-width: 923px) {
+    .containera-wrapper {
+      width: 100%;
+    }
+  
+    .containera-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+  
+    .containera-wrapper .containera-part1 {
+      width: 100%;
+      border: none;
+      margin: 0 auto;
+    }
+  
+    .containera-wrapper .containera-part2 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0px 20px;
+    }
+  }
+  .containera-part1 .containera-part1-ul {
+  list-style: none;
+  }
+  @media (max-width: 575.98px) {
+    .join-us-button-containera {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .containera-part1 .containera-part1-ul {
+      padding-left: 0px;
+    }
+  
+    .containera-part2-details .containera-part2h3 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .containera-part2-details .containera-part2p {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .containera-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .containera-wrapper .containera-part1 {
+      justify-content: center;
+      display: flex;
+    }
+  
+    .containera-wrapper .containera-part2 {
+      width: 100%;
+      padding: 0px 20px;
+    }
+  
+    .container-part2-details {
+      margin: 0;
+    }
+  
+    .containera-wrapper {
+      padding-top: 2rem;
+    }
+  
+    .part1-list {
+      margin-bottom: 1.5rem;
+      margin-top: 0rem;
+    }
+  
+    .containera-wrapper .containera-part2 {
+      border-left: 0px;
+    }
+  }
+  

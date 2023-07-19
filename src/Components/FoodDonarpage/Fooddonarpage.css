@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Poppins&display=swap');
+
+.donarcustom-body {
+  background-color: #c7f2ab;/* Replace with your desired background color */
+}
+
+
+  .donarformpage .container {
+    overflow: hidden;
+  }
+  .donarformpage .donararrowimage{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 6px 9px;
+    width: 30px;
+    background: white;
+    margin: 10px 0px 0px 16px;
+
+}
+  /* Form */
+  .donarformpage .donarh6 {
+    font-weight: 400;
+    font-size: 40px;
+   
+    color: #044EAF;
+    font-family: Comfortaa;
+  }
+  
+  /* Form input */
+  .donarformpage #donerinp {
+    width: 100%;
+    margin: 20px 0px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid black;
+    outline: none; /* Add this line to remove the outline */
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  
+  /* Submit button */
+  .donarformpage #donarbtn2 {
+    color: white;
+    background: #1B5240;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    width: 161px;
+    height: 52px;
+    font-size: 25px;
+    font-family: Arvo;
+  }
+  
+  .donarformpage .form-class input::placeholder {
+    color: #000000; /* Color for the placeholder text */
+  }
+ 
+  .donarformpage #donarcheckbox:focus{
+ box-shadow: none;
+  }
+ 
+  
+  
+  /* Checkbox info */
+  .donarformpage .donarcheckinfo {
+font-size: 17px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+  }
+
+  
+  @media screen and (max-width: 576px) {
+   
+  
+  
+  
+    .donarformpage .donarh6 {
+      font-size: 24px;
+    }
+  
+  
+    .donarformpage .donarcheckinfo{
+      font-size: 16px;
+    }
+    .donarformpage #donarbtn{
+      font-size: 16px;
+    }
+    .donarformpage #donarrow{
+      margin: 0px 15px;
+     }
+   .Donorverifyimg{
+    display: none;
+   }
+   
+  }
+ 

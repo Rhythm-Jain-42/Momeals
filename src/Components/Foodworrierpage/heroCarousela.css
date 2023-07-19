@@ -1,0 +1,101 @@
+.heroCarousela-heading .heroCarouselah5 {
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-family: Comfortaa;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.heroCarouselagiveaway:hover {
+  background-color: #C7F2AB !important;
+  color: black !important;
+  border: none !important;
+}
+
+.heroCarousela-heading .heroCarouselap {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: Poppins;
+}
+
+.heroCarousela-heading .heroCarouselah5 span {
+  color: #80ED99;
+}
+
+.heroCarousela-heading #heroCarouselabtn {
+  background: #FD7E14;
+  border-radius: 35px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+@media (max-width: 575.98px) {
+  .heroCarouselacarouselpage {
+    display: none;
+  }
+  .heroCarousela-heading .heroCarouselah5 {
+    font-size: 10px;
+  }
+  .heroCarousela-heading .heroCarouselap {
+    font-size: 10px;
+  }
+  .heroCarousela-heading #heroCarouselabtn {
+    font-size: 10px;
+  }
+  .heroCarouselaFoodwarriorpage .heroCarouselah3 {
+    font-size: 20px;
+    font-family: 'Comfortaa';
+  }
+  .heroCarouselaFoodwarriorpage .heroCarouselap {
+    font-size: 15px;
+    font-family: Inter;
+  }
+}
+
+@media (max-width: 280px) {
+  .heroCarouselaFoodwarriorpage .heroCarouselah3 {
+    font-size: 15px;
+  }
+}
+
+.heroCarouselaFoodwarriorpage #heroCarouselabtn {
+  width: 129px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  background-color: #FD7E14;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .heroCarouselacarouselpage {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroCarouselacarouselpage {
+    display: block;
+  }
+  .heroCarouselaFoodwarriorpage {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .heroCarousela-heading {
+    top: 20%;
+  }
+  .heroCarousela-heading #heroCarouselabtn {
+    padding: 11px 52px;
+  }
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Poppins&display=swap');
+
+
+.foodtypeheader {
+    color: #25885F;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+  
+    
+  }
+  .foodtypepara {
+    font-family: 'Poppins';
+  font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+  text-align: center;
+  margin: 2vw auto;
+  max-width: 80%;
+}
+
+.foodtypetitlecard{
+    font-size: 32px;
+font-family: 'Comfortaa';
+font-weight: 700;
+}
+.foodtypeinfocard{
+    color: #585858;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.foodtypearrowimage{
+        border: 1px solid black;
+    border-radius: 25px;
+    padding: 6px;
+    margin: 10px 0px 0px 16px;
+}
+.foodtyperow .foodtypebtn {
+   
+    text-transform: uppercase;
+  
+width: 156px;
+height: 50px;
+    border-radius: 50px;
+    color:white;
+  border: none;
+  background: #1B5240;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+
+  .foodtyperow .btn:hover{
+    background-color: #FD7E14 !important;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .foodtyperow{
+      /* height: 100vh; */
+    }
+  }
+@media screen and (min-width: 768px) {
+  .foodtyperow {
+    background-image: url("../Images/Rectangle 141.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3px;
+    background-position: center;
+  }
+ .foodtypecard .foodimgs{
+     
+   
+    width: 100px ;
+    height: 100px ;
+    padding: 22px;
+}
+  }
+  @media screen and (min-width: 1200px) {
+   
+    .foodtyperow {
+        clip-path: polygon(62% 10%, 255% 56%, 128% 372%, -138% 51%, 48% 7%);
+       
+      }
+      .foodtyperow {
+      position: relative;
+      background-color: #C7F2AB;
+      padding-bottom: 3px;
+    
+    }
+  }
+  @media screen and (max-width: 600px) {
+   
+    .foodtyperow {
+        background-image: url("../Images/Rectangle 141.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px 0px;
+        background-position: center;
+      }
+      .foodtypepara {
+        font-size: 14px;
+       
+        
+      }
+      .foodtypeheader {
+      
+      
+        font-size: 32px;
+    }
+    .foodtypetitlecard{
+        font-size: 16px;
+    }
+    .foodtypeinfocard{
+        font-size: 14px;
+    }
+    .foodtypecard .foodimgs{
+     
+   
+      width: 50px ;
+      height: 50px ;
+      padding: 22px ;
+  }
+  }
+
+  
